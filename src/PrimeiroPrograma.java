@@ -35,6 +35,7 @@ public class PrimeiroPrograma {
 		livro1.setPreco(120.00);
 		livro1.exibirDetalhes();
 		
+		
 		if (!livro1.aplicaDesconto(0.2)) {
 			System.out.println("Desconto no Livro não pode ser maior do que 20%");
 		}else {
